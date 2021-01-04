@@ -1,0 +1,80 @@
+[
+    {
+      "Rank": 1,
+      "Name": "Jean-Christophe Moquin",
+      "PJ": 1055,
+      "PTS": 961,
+      "BTS": 374,
+      "PAS": 587,
+      "Ratio": 122,
+      "PUN": 605,
+      "SAL": "68,560",
+      "ECM": 74,
+      "EC": 0
+    },
+    {
+      "Rank": 2,
+      "Name": "Maxime Lépine",
+      "PJ": 1066,
+      "PTS": 927,
+      "BTS": 351,
+      "PAS": 576,
+      "Ratio": 25,
+      "PUN": 503,
+      "SAL": "77,910",
+      "ECM": 40,
+      "EC": 34
+    },
+    {
+      "Rank": 3,
+      "Name": "Sébastien Morneau",
+      "PJ": 1076,
+      "PTS": 906,
+      "BTS": 391,
+      "PAS": 515,
+      "Ratio": 21,
+      "PUN": 696,
+      "SAL": "69,820",
+      "ECM": 19,
+      "EC": 55
+    },
+    {
+      "Rank": 4,
+      "Name": "Emma-Genevieve Murray St-Louis",
+      "PJ": 1049,
+      "PTS": 904,
+      "BTS": 324,
+      "PAS": 580,
+      "Ratio": 118,
+      "PUN": 533,
+      "SAL": "72,200",
+      "ECM": 17,
+      "EC": 57
+    },
+    {
+      "Rank": 5,
+      "Name": "Mathieu Gravel",
+      "PJ": 1067,
+      "PTS": 855,
+      "BTS": 312,
+      "PAS": 543,
+      "Ratio": 49,
+      "PUN": 518,
+      "SAL": "79,670",
+      "ECM": -31,
+      "EC": 106
+    },
+    {
+      "Rank": 6,
+      "Name": "Éric Chalut",
+      "PJ": 977,
+      "PTS": 767,
+      "BTS": 282,
+      "PAS": 485,
+      "Ratio": 46,
+      "PUN": 794,
+      "SAL": "78,690",
+      "ECM": -119,
+      "EC": 194
+    }
+   ]
