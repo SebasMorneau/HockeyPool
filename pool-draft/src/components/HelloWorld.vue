@@ -1,63 +1,172 @@
 <template>
-  <v-container>
-    <v-card elevation="9" shaped>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>11ᵉ édition - 2020</v-card-title>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>10ᵉ édition - 2019</v-card-title>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>9ᵉ édition - 2018</v-card-title>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>8ᵉ édition - 2017</v-card-title>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>7ᵉ édition - 2016</v-card-title>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>6ᵉ édition - 2015</v-card-title>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>5ᵉ édition - 2014</v-card-title>
-      <v-data-table
-        class="elevation-1"
-        :headers="headers_G"
-        :items="data2014"
-        :items-per-page="itemsPerPage"
-        hide-default-footer
-      ></v-data-table>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>4ᵉ édition - 2013</v-card-title>
-      <v-data-table
-        class="elevation-1"
-        :headers="headers"
-        :items="data2013"
-        :items-per-page="itemsPerPage"
-        hide-default-footer
-      ></v-data-table>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>3ᵉ édition - 2012</v-card-title>
-      <v-data-table
-        class="elevation-1"
-        :headers="headers"
-        :items="data2012"
-        :items-per-page="itemsPerPage"
-        hide-default-footer
-      ></v-data-table>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>2ᵉ édition - 2011</v-card-title>
-      <v-data-table
-        class="elevation-1"
-        :headers="headers"
-        :items="data2011"
-        :items-per-page="itemsPerPage"
-        hide-default-footer
-      ></v-data-table>
-      <v-divider class="mx-4"></v-divider>
-      <v-card-title>1ᵉʳᵉ édition - 2010</v-card-title>
-      <v-data-table
-        class="elevation-1"
-        :headers="headers"
-        :items="data2010"
-        :items-per-page="itemsPerPage"
-        hide-default-footer
-      ></v-data-table>
+  <v-container class="app-cards">
+    <v-card elevation="9">
+      <v-expansion-panels>
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            11ᵉ édition - 2020
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_G"
+              :items="data2020"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            10ᵉ édition - 2019
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_G"
+              :items="data2019"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            9ᵉ édition - 2018
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_G"
+              :items="data2018"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            8ᵉ édition - 2017
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_G"
+              :items="data2017"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            7ᵉ édition - 2016
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_G"
+              :items="data2016"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            6ᵉ édition - 2015
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_G"
+              :items="data2015"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            5ᵉ édition - 2014
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_G"
+              :items="data2014"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            4ᵉ édition - 2013
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers"
+              :items="data2013"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            3ᵉ édition - 2012
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers"
+              :items="data2012"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            2ᵉ édition - 2011
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers"
+              :items="data2011"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            1ᵉʳᵉ édition - 2010
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers"
+              :items="data2010"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-expansion-panels>
     </v-card>
   </v-container>
 </template>
@@ -68,6 +177,12 @@ import pool2011 from "../data/pool_2011.json";
 import pool2012 from "../data/pool_2012.json";
 import pool2013 from "../data/pool_2013.json";
 import pool2014 from "../data/pool_2014.json";
+import pool2015 from "../data/pool_2015.json";
+import pool2016 from "../data/pool_2016.json";
+import pool2017 from "../data/pool_2017.json";
+import pool2018 from "../data/pool_2018.json";
+import pool2019 from "../data/pool_2019.json";
+import pool2020 from "../data/pool_2020.json";
 
 export default {
   name: "HelloWorld",
@@ -116,17 +231,20 @@ export default {
     data2012: pool2012,
     data2013: pool2013,
     data2014: pool2014,
+    data2015: pool2015,
+    data2016: pool2016,
+    data2017: pool2017,
+    data2018: pool2018,
+    data2019: pool2019,
+    data2020: pool2020,
   }),
 };
 </script>
 
 
 <style scoped>
-.mx-4 {
-  padding-bottom: 50px;
-}
-.elevation-1 {
-  padding: 20px;
+.app-cards {
+  padding-top: 40px;
 }
 </style>
 
