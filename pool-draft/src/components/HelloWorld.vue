@@ -3,6 +3,19 @@
     <v-card elevation="9">
       <v-expansion-panels>
         <v-expansion-panel>
+          <v-expansion-panel-header> Historique </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_H"
+              :items="historique"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
           <v-expansion-panel-header>
             11ᵉ édition - 2020
           </v-expansion-panel-header>
@@ -183,12 +196,13 @@ import pool2017 from "../data/pool_2017.json";
 import pool2018 from "../data/pool_2018.json";
 import pool2019 from "../data/pool_2019.json";
 import pool2020 from "../data/pool_2020.json";
+import historic_data from "../data/historic.json";
 
 export default {
   name: "HelloWorld",
 
   data: () => ({
-    itemsPerPage: 12,
+    itemsPerPage: 15,
     headers: [
       {
         text: "Rang",
@@ -226,6 +240,25 @@ export default {
       { text: "ECM", value: "ECM" },
       { text: "EC", value: "EC" },
     ],
+    headers_H: [
+      {
+        text: "Nom",
+        align: "start",
+        value: "name",
+      },
+      { text: "1er", value: "1" },
+      { text: "2e", value: "2" },
+      { text: "3e", value: "3" },
+      { text: "4e", value: "4" },
+      { text: "5e", value: "5" },
+      { text: "6e", value: "6" },
+      { text: "7e", value: "7" },
+      { text: "8e", value: "8" },
+      { text: "9e", value: "9" },
+      { text: "10e", value: "10" },
+      { text: "11e", value: "11" },
+      { text: "12e", value: "12" },
+    ],
     data2010: pool2010,
     data2011: pool2011,
     data2012: pool2012,
@@ -237,6 +270,7 @@ export default {
     data2018: pool2018,
     data2019: pool2019,
     data2020: pool2020,
+    historique: historic_data,
   }),
 };
 </script>
