@@ -1,0 +1,93 @@
+[
+    {
+      "Rank": 1,
+      "Name": "Éric Chalut",
+      "PJ": 1111,
+      "PTS": 902,
+      "BTS": 389,
+      "PAS": 513,
+      "Ratio": 89,
+      "PUN": 591,
+      "SAL": "86,260",
+      "ECM": 70,
+      "EC": 0
+    },
+    {
+      "Rank": 2,
+      "Name": "Mathieu Gravel",
+      "PJ": 1112,
+      "PTS": 897,
+      "BTS": 390,
+      "PAS": 507,
+      "Ratio": 5,
+      "PUN": 555,
+      "SAL": "80,640",
+      "ECM": 65,
+      "EC": 5
+    },
+    {
+      "Rank": 3,
+      "Name": "Sébastien Morneau",
+      "PJ": 1142,
+      "PTS": 843,
+      "BTS": 322,
+      "PAS": 521,
+      "Ratio": -47,
+      "PUN": 683,
+      "SAL": "75,550",
+      "ECM": 11,
+      "EC": 59
+    },
+    {
+      "Rank": 4,
+      "Name": "Maxime Lépine",
+      "PJ": 1124,
+      "PTS": 818,
+      "BTS": 366,
+      "PAS": 452,
+      "Ratio": 40,
+      "PUN": 591,
+      "SAL": "69,610",
+      "ECM": -13,
+      "EC": 84
+    },
+    {
+      "Rank": 5,
+      "Name": "Jean-Christophe M.",
+      "PJ": 1086,
+      "PTS": 802,
+      "BTS": 290,
+      "PAS": 512,
+      "Ratio": 68,
+      "PUN": 611,
+      "SAL": "71,970",
+      "ECM": -29,
+      "EC": 100
+    },
+    {
+      "Rank": 6,
+      "Name": "Emma-Genevieve M. STL",
+      "PJ": 1094,
+      "PTS": 788,
+      "BTS": 301,
+      "PAS": 487,
+      "Ratio": 85,
+      "PUN": 670,
+      "SAL": "83,750",
+      "ECM": -43,
+      "EC": 114
+    },
+    {
+      "Rank": 7,
+      "Name": "Alexandre Bourgeois",
+      "PJ": 1088,
+      "PTS": 768,
+      "BTS": 316,
+      "PAS": 452,
+      "Ratio": 117,
+      "PUN": 901,
+      "SAL": "69,030",
+      "ECM": -63,
+      "EC": 134
+    }
+   ]
