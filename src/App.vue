@@ -3,7 +3,7 @@
     <v-app-bar app color="primary" dark>
       <v-container>
         <v-row justify="center" align="center" class="navbar_main">
-          POOL JOLIETTE ET CIE Emma stone
+          POOL JOLIETTE ET CIE
         </v-row>
       </v-container>
     </v-app-bar>
