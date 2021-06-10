@@ -17,6 +17,21 @@
 
         <v-expansion-panel>
           <v-expansion-panel-header>
+            12ᵉ édition - 2021
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_G"
+              :items="data2021"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
             11ᵉ édition - 2020
           </v-expansion-panel-header>
           <v-expansion-panel-content>
@@ -196,13 +211,14 @@ import pool2017 from "../data/pool_2017.json";
 import pool2018 from "../data/pool_2018.json";
 import pool2019 from "../data/pool_2019.json";
 import pool2020 from "../data/pool_2020.json";
+import pool2021 from "../data/pool_2021.json";
 import historic_data from "../data/historic.json";
 
 export default {
   name: "HelloWorld",
 
   data: () => ({
-    itemsPerPage: 15,
+    itemsPerPage: 16,
     headers: [
       {
         text: "Rang",
@@ -270,6 +286,7 @@ export default {
     data2018: pool2018,
     data2019: pool2019,
     data2020: pool2020,
+    data2021: pool2021,
     historique: historic_data,
   }),
 };
