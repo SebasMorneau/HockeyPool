@@ -303,7 +303,7 @@ export default {
     data2019: pool2019,
     data2020: pool2020,
     data2021: pool2021,
-    pool2022: pool2022,
+    data2022: pool2022,
     historique: historic_data,
   }),
 };
