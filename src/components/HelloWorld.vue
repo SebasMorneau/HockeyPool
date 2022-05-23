@@ -17,6 +17,21 @@
 
         <v-expansion-panel>
           <v-expansion-panel-header>
+            13ᵉ édition - 2022
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <v-data-table
+              class="elevation-1"
+              :headers="headers_G"
+              :items="data2022"
+              :items-per-page="itemsPerPage"
+              hide-default-footer
+            ></v-data-table>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+
+        <v-expansion-panel>
+          <v-expansion-panel-header>
             12ᵉ édition - 2021
           </v-expansion-panel-header>
           <v-expansion-panel-content>
@@ -212,6 +227,7 @@ import pool2018 from "../data/pool_2018.json";
 import pool2019 from "../data/pool_2019.json";
 import pool2020 from "../data/pool_2020.json";
 import pool2021 from "../data/pool_2021.json";
+import pool2022 from "../data/pool_2022.json";
 import historic_data from "../data/historic.json";
 
 export default {
@@ -287,6 +303,7 @@ export default {
     data2019: pool2019,
     data2020: pool2020,
     data2021: pool2021,
+    pool2022: pool2022,
     historique: historic_data,
   }),
 };
